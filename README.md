@@ -2,6 +2,8 @@
 
 CTF results, notes, and evidence.
 
+- [Cloud Security Championship #6 — Malware Busters! (2026-10-18)](cloud-security-championship-malware-busters-2026-10-18.md)
+- [Cloud Security Championship certificate](cloud-security-championship-malware-busters-certificate.png)
 - [The Cloud Hunting Games — 5/5 challenges (2026-10-18)](cloud-hunting-games-2026-10-18.md)
 - [The Cloud Hunting Games certificate](cloud-hunting-games-certificate.png)
 - [Prompt Airlines — 5/5 challenges (2026-10-18)](prompt-airlines-2026-10-18.md)
