@@ -45,3 +45,7 @@ No Google or personal account password was obtained. The exercise Basic authenti
 ## Cloud Security Championship — Needle in a Haystack（2026-10-22 追記）
 
 #4 は[公開解答の画像から得たフラグを公式チェッカーに提出して受理を確認](cloud-security-championship-needle-in-a-haystack-2026-10-22.md)しました。対象ドメインの名前解決ができず、環境内での独立したフラグ取得はできていません。
+
+## Cloud Security Championship — Game of Pods（2026-10-22 追記）
+
+#5 は[公開解答に掲載されたフラグを公式チェッカーに提出して受理を確認](cloud-security-championship-game-of-pods-2026-10-22.md)しました。演習端末で初期権限は確認しましたが、独立した権限昇格とフラグ取得は行っていません。

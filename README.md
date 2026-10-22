@@ -4,6 +4,7 @@ CTF results, notes, and evidence.
 
 - [Cloud Security Championship #2 — Contain Me If You Can (2026-10-22)](cloud-security-championship-contain-me-if-you-can-2026-10-22.md)
 - [Cloud Security Championship #4 — Needle in a Haystack (2026-10-22)](cloud-security-championship-needle-in-a-haystack-2026-10-22.md)
+- [Cloud Security Championship #5 — Game of Pods (2026-10-22)](cloud-security-championship-game-of-pods-2026-10-22.md)
 - [Cloud Security Championship #6 — Malware Busters! (2026-10-18)](cloud-security-championship-malware-busters-2026-10-18.md)
 - [Cloud Security Championship — 未解決問題の調査記録 (2026-10-22)](cloud-security-championship-partial-progress-2026-10-22.md)
 - [Cloud Security Championship certificate](cloud-security-championship-malware-busters-certificate.png)
