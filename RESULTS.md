@@ -36,4 +36,8 @@ No Google or personal account password was obtained. The exercise Basic authenti
 
 ## Cloud Security Championship — 進行中の調査（未解決）
 
-2026-10-22（UTC）時点の #2–#5、#7–#12 は未解決であり、新たな正解・チェッカー成功はありません。確認範囲、未実施事項、環境上の阻害は[調査記録](cloud-security-championship-partial-progress-2026-10-22.md)に分けて記載しています。上記の解答済み結果とは区別してください。
+2026-10-22 の先行調査時点では #2–#5、#7–#12 は未解決であり、新たな正解・チェッカー成功はありませんでした。確認範囲、未実施事項、環境上の阻害は[調査記録](cloud-security-championship-partial-progress-2026-10-22.md)に分けて記載しています。上記の解答済み結果とは区別してください。
+
+## Cloud Security Championship — Contain Me If You Can（2026-10-22 追記）
+
+#2 は[公開解答から得たフラグを公式チェッカーに提出して受理を確認](cloud-security-championship-contain-me-if-you-can-2026-10-22.md)しました。演習端末は接続が閉じられ、環境内での独立したフラグ取得はできていません。
