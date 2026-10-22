@@ -34,3 +34,6 @@ Recorded on 2026-10-16 (JST). The three flags below were accepted by their chall
 
 No Google or personal account password was obtained. The exercise Basic authentication value and temporary AWS role credentials are not recorded here.
 
+## Cloud Security Championship — 進行中の調査（未解決）
+
+2026-10-22（UTC）時点の #2–#5、#7–#12 は未解決であり、新たな正解・チェッカー成功はありません。確認範囲、未実施事項、環境上の阻害は[調査記録](cloud-security-championship-partial-progress-2026-10-22.md)に分けて記載しています。上記の解答済み結果とは区別してください。
