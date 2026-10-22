@@ -2,7 +2,7 @@
 
 - 検証日: 2026-10-22
 - 結果: [公式チャレンジ](https://www.cloudsecuritychampionship.com/challenge/4)のチェッカーで **Congratulations!** を確認
-- [正解画面](cloud-security-championship-challenge-4-solved.png)
+- [正解画面](cloud-security-championship-challenge-4-solved.jpg)
 - フラグ: `WIZ_CTF{vibe_coding_needs_vibe_security}`
 
 ## 今回確認できた範囲
