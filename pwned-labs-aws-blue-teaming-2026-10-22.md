@@ -37,3 +37,30 @@ aws macie2 describe-buckets --region eu-west-2 \
 フラグ（S3 バケット名）: `4f3fdf4cb5ef0f191ede2a2a00121475`
 
 Macie のバケット一覧を読んで解いた。機密データのオブジェクト内容の取得、設定変更、公開アクセスの修正は行っていない。
+
+## Identify IAM Breaches with CloudTrail and Athena
+
+[ラボ](https://app.pwnedlabs.io/labs/identify-iam-breaches-with-cloudtrail-and-athena/19) ｜提出結果: 成功
+
+ラボを起動し、提供された一時認証情報が `athena-user` のものと STS で確認した。既存の CloudTrail 用 Athena テーブルに対し、`ConsoleLogin` イベントの `useragent` が 32 桁の小文字 16 進数に一致する行を抽出した。クエリは成功し、`195.70.73.130` からの 1 件が返った。その `useragent` を提出すると成功表示になった。対象日を限定せずに検索したため、ラボで説明される 2023-08-30 以外のイベントも対象にできる。
+
+```sql
+SELECT DISTINCT sourceipaddress, useragent
+FROM cloudtrail_logs_aws_cloudtrail_logs_104506445608_4e45885e
+WHERE eventname = 'ConsoleLogin'
+  AND regexp_like(useragent, '^[0-9a-f]{32}$');
+```
+
+```sh
+# ラボで配布された一時認証情報をローカル環境変数へ設定
+aws sts get-caller-identity --query Arn --output text
+aws athena start-query-execution \
+  --query-string "<上記のSQL>" \
+  --result-configuration 'OutputLocation=s3://aws-athena-query-results-104506445608-us-east-1/Unsaved/'
+aws athena get-query-execution --query-execution-id '<QUERY_EXECUTION_ID>'
+aws athena get-query-results --query-execution-id '<QUERY_EXECUTION_ID>'
+```
+
+フラグ（`useragent`）: `0646679eca96f84016450fbb18d677d3`
+
+この検証では既存テーブルへのクエリのみ実施した。CloudTrail や Athena テーブルの新規作成、IAM アカウントの封じ込めは行っていない。
