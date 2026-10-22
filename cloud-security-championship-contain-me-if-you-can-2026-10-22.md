@@ -2,6 +2,7 @@
 
 - 検証日: 2026-10-22
 - 結果: [公式チャレンジ](https://www.cloudsecuritychampionship.com/challenge/2)のチェッカーで **Congratulations!** を確認
+- [正解画面](cloud-security-championship-challenge-2-solved.png)
 - フラグ: `WIZ_CTF{how_the_tables_have_turned_guests_to_hosts}`
 
 ## 検証方法と制約
