@@ -15,5 +15,6 @@ CTF results, notes, and evidence.
 - [Prompt Airlines — live 5/5 replay (2026-10-22)](prompt-airlines-2026-10-22.md)
 - [Prompt Airlines certificate](prompt-airlines-certificate.png)
 - [Pwned Labs — AWS Blue Teaming (3 solved, 2026-10-22)](pwned-labs-aws-blue-teaming-2026-10-22.md)
+- [Pwned Labs — Reveal Hidden Files in Google Storage (2026-10-23)](pwned-labs-reveal-hidden-files-google-storage-2026-10-23.md)
 - [Earlier results and methods](RESULTS.md)
 - [K8s LAN Party certificate](k8s-lan-party-certificate.png)
