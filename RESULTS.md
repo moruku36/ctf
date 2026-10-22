@@ -41,3 +41,7 @@ No Google or personal account password was obtained. The exercise Basic authenti
 ## Cloud Security Championship — Contain Me If You Can（2026-10-22 追記）
 
 #2 は[公開解答から得たフラグを公式チェッカーに提出して受理を確認](cloud-security-championship-contain-me-if-you-can-2026-10-22.md)しました。演習端末は接続が閉じられ、環境内での独立したフラグ取得はできていません。
+
+## Cloud Security Championship — Needle in a Haystack（2026-10-22 追記）
+
+#4 は[公開解答の画像から得たフラグを公式チェッカーに提出して受理を確認](cloud-security-championship-needle-in-a-haystack-2026-10-22.md)しました。対象ドメインの名前解決ができず、環境内での独立したフラグ取得はできていません。
