@@ -4,6 +4,7 @@ CTF results, notes, and evidence.
 
 - [PumpkinShell — Dependency Issues (2026-10-27)](pumpkinshell-dependency-issues-2026-10-27.md)
 - [PumpkinShell — Gist of the Problem (2026-10-27)](pumpkinshell-gist-of-the-problem-2026-10-27.md)
+- [PumpkinShell — It Sucks (2026-10-27)](pumpkinshell-it-sucks-2026-10-27.md)
 - [Cloud Security Championship #2 — Contain Me If You Can (2026-10-22)](cloud-security-championship-contain-me-if-you-can-2026-10-22.md)
 - [Cloud Security Championship #4 — Needle in a Haystack (2026-10-22)](cloud-security-championship-needle-in-a-haystack-2026-10-22.md)
 - [Cloud Security Championship #5 — Game of Pods (2026-10-22)](cloud-security-championship-game-of-pods-2026-10-22.md)
