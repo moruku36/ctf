@@ -2,8 +2,9 @@
 
 - 実施日: 2026-10-27 (JST)
 - 対象: [Wiz Haunted House](https://wizhauntedhouse.com/challenge) の Challenge 4
-- 結果: **未解決（Unsolved）**。累計得点は 55 点のままで、Challenge 5 は未解放。
-- 調査方法: Muse（フワッチ）のブラウザで操作。チャレンジサイトへのログインは moruku 本人が実施した。Hint 1 は moruku 側で事前に開示済み（この調査ではヒントボタンを押していない）。
+- 結果: **Solved · +5 points**。累計得点は 60 点となり、Challenge 5 が解放された。
+- 回答: `homeadmin/Pumpkin$pice2026`
+- 調査方法: 最初の調査は Muse（フワッチ）、再挑戦は Codex の Chrome ブラウザで操作。チャレンジサイトへのログインは moruku 本人が実施した。Hint 1 は事前に開示済みで、再挑戦では新たにヒントを開いていない。
 
 ## 問題の概要
 
@@ -29,15 +30,10 @@
    - `Pumpkin$spice2026`（パスワード単体）
    - `homeadmin / Pumpkin$Spice2026`（$＋大文字 S と読んだ版）
    - `homeadmin / Pumpkin$pice2026`（$ の後に s なしと読んだ版）
-4. moruku の指示により、トークン節約のため試行はここで打ち切った。Challenge 4 は未解決のまま記録する。
+4. 再挑戦では、写真1の `guest / trickortreat` と `PumpkinNet_5G / n0-c4rv1ng-2026` を提出したが、いずれも却下された。
+5. 写真17の原画を拡大すると、付箋は `homeadmin / Pumpkin$pice2026` と読めた。`homeadmin:Pumpkin$pice2026` は却下されたが、スラッシュの前後に空白を入れない **`homeadmin/Pumpkin$pice2026`** は **Accepted flag** と表示された。Challenge 4 は **Solved · +5 points**、累計 60 点となり、Challenge 5 が解放された。
 
-## 残っている候補（再挑戦する場合）
-
-- 写真1の `guest / trickortreat`（区切りは `:`、`/`, ` / ` などを試す）
-- 写真1の WiFi: `PumpkinNet_5G / n0-c4rv1ng-2026`
-- 写真2の暗証番号 `471926`（ただし回答欄の形式は USERNAME / PASSWORD で、単独の数字とは合わない）
-- 写真17の読み取り再検証（OCR ツールの併用、「Pumpkin」の直後の字形の確定）。写真の原画はポータルからダウンロード可能で、URL は `https://vacuum.wizhauntedhouse.com/api/photos/<id>/image` の形式だった
-- 写真17の付箋1行目（`homeassistant.local:8123`）を含む提出形式
+写真の付箋には区切りの前後に空白があるが、受理された回答には空白がない。また、`$` の後に `s` を追加しない点が重要だった。
 
 ## 取り扱い
 
