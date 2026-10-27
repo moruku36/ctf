@@ -23,3 +23,9 @@
 
 - 題名の「Core Memory」は、コアダンプ（gcore）とプロセスメモリの両義だった。トークンは600秒でローテーションするため、ダンプ取得から MQTT 発行までを止まらずに続ける必要がある。
 - ChatGPT（最新モデル）も同じ着眼点（実行中プロセスのメモリ内にあるトークンを調べる）まで到達していたが、作業途中でプラットフォーム側のサイバーセキュリティ系フィルタに遮断され停止したため、実作業を Muse に切り替えて完遂した。
+
+## 証明書
+
+- 発行先: MORUKU36（アカウントの表示名で発行）
+- 証明書ページ: https://wizhauntedhouse.com/certificate/pumpkinshell/f83cb932-3540-478e-ab2e-a3a2b8e0bca4
+- [証明書画像](pumpkinshell-certificate.png)

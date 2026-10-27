@@ -7,6 +7,7 @@ CTF results, notes, and evidence.
 - [PumpkinShell — It Sucks (2026-10-27)](pumpkinshell-it-sucks-2026-10-27.md)
 - [PumpkinShell — Through the Lens (2026-10-27)](pumpkinshell-through-the-lens-2026-10-27.md)
 - [PumpkinShell — Unlock the Core Memory (2026-10-27)](pumpkinshell-unlock-the-core-memory-2026-10-27.md)
+- [PumpkinShell certificate](pumpkinshell-certificate.png)
 - [Cloud Security Championship #2 — Contain Me If You Can (2026-10-22)](cloud-security-championship-contain-me-if-you-can-2026-10-22.md)
 - [Cloud Security Championship #4 — Needle in a Haystack (2026-10-22)](cloud-security-championship-needle-in-a-haystack-2026-10-22.md)
 - [Cloud Security Championship #5 — Game of Pods (2026-10-22)](cloud-security-championship-game-of-pods-2026-10-22.md)
