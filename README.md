@@ -2,6 +2,8 @@
 
 CTF results, notes, and evidence.
 
+- [HackerOne 学習・実践ロードマップ](hackerone-learning-roadmap.md)
+
 - [PumpkinShell — Dependency Issues (2026-10-27)](pumpkinshell-dependency-issues-2026-10-27.md)
 - [PumpkinShell — Gist of the Problem (2026-10-27)](pumpkinshell-gist-of-the-problem-2026-10-27.md)
 - [PumpkinShell — It Sucks (2026-10-27)](pumpkinshell-it-sucks-2026-10-27.md)
