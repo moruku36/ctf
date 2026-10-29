@@ -6,6 +6,6 @@
 | --- | --- | --- | --- |
 | 1 | A little something to get you started | 開始時点で 1/1。今回の解法は未再現 | 記録待ち |
 | 2 | Micro-CMS v1 | **4/4 提出済み** | [解法](micro-cms-v1.md) |
-| 3 | Micro-CMS v2 | 起動済み、0/3。承認後の認証回避に成功し、Private Page のリンクを確認 | [調査メモ](micro-cms-v2.md) |
+| 3 | Micro-CMS v2 | **2/3 提出済み**。Flag2 は未取得 | [解法と調査記録](micro-cms-v2.md) |
 
-2026-10-29: Micro-CMS v1 の残る Flag2 と Flag1 を提出し、CTF 一覧で 4/4、合計 9/26 点を確認した。Micro-CMS v2 は起動済み。Changelog とログイン画面を確認した。本人の明示的な承認後、ログインフォームで UNION を使った認証回避に成功した。Private Page のリンクを確認したが、画面操作のタイムアウトにより本文は未確認。
+2026-10-29: Micro-CMS v1 の残る Flag2 と Flag1 を提出し、CTF 一覧で 4/4、合計 9/26 点を確認した。Micro-CMS v2 は起動済み。Changelog とログイン画面を確認した。本人の明示的な承認後、ログインフォームで UNION を使った認証回避に成功した。Private Page のフラグと、未認証 POST で返ったフラグを提出した。今回の Chrome 操作でタイムアウトは再発せず、CTF 一覧で 2/3、全体 15/26 点を確認した。
