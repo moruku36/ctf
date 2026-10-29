@@ -4,9 +4,9 @@ Recorded on 2026-10-16 (JST). The three flags below were accepted by their chall
 
 | Event | Challenge | Result | Evidence |
 | --- | --- | --- | --- |
-| [Cloud Security Championship](https://www.cloudsecuritychampionship.com/challenge/1) | 1 — Perimeter Leak | Accepted | [Success screen](cloud-security-championship-challenge-1-solved.png) |
-| [K8s LAN Party](https://k8slanparty.com/challenge/1) | 1 — DNSing with the stars | Accepted | [Success screen](k8s-lan-party-challenge-1-solved.png) |
-| [K8s LAN Party](https://k8slanparty.com/challenge/2) | 2 — Hello? | Accepted | [Success screen](k8s-lan-party-challenge-2-solved.png) |
+| [Cloud Security Championship](https://www.cloudsecuritychampionship.com/challenge/1) | 1 — Perimeter Leak | Accepted | [Success screen](cloud-security-championship/cloud-security-championship-challenge-1-solved.png) |
+| [K8s LAN Party](https://k8slanparty.com/challenge/1) | 1 — DNSing with the stars | Accepted | [Success screen](k8s-lan-party/k8s-lan-party-challenge-1-solved.png) |
+| [K8s LAN Party](https://k8slanparty.com/challenge/2) | 2 — Hello? | Accepted | [Success screen](k8s-lan-party/k8s-lan-party-challenge-2-solved.png) |
 
 ## Cloud Security Championship — Perimeter Leak
 
@@ -30,26 +30,26 @@ Recorded on 2026-10-16 (JST). The three flags below were accepted by their chall
 
 - Issued to: **Kentaro Mori**
 - Completion shown: **2 of 5** K8s LAN Party challenges
-- [View certificate](https://k8slanparty.com/certificate/qco9SlhV) · [Certificate image](k8s-lan-party-certificate.png)
+- [View certificate](https://k8slanparty.com/certificate/qco9SlhV) · [Certificate image](k8s-lan-party/k8s-lan-party-certificate.png)
 
 No Google or personal account password was obtained. The exercise Basic authentication value and temporary AWS role credentials are not recorded here.
 
 ## Cloud Security Championship — 進行中の調査（未解決）
 
-2026-10-22 の先行調査時点では #2–#5、#7–#12 は未解決であり、新たな正解・チェッカー成功はありませんでした。確認範囲、未実施事項、環境上の阻害は[調査記録](cloud-security-championship-partial-progress-2026-10-22.md)に分けて記載しています。上記の解答済み結果とは区別してください。
+2026-10-22 の先行調査時点では #2–#5、#7–#12 は未解決であり、新たな正解・チェッカー成功はありませんでした。確認範囲、未実施事項、環境上の阻害は[調査記録](cloud-security-championship/cloud-security-championship-partial-progress-2026-10-22.md)に分けて記載しています。上記の解答済み結果とは区別してください。
 
 ## Cloud Security Championship — Contain Me If You Can（2026-10-22 追記）
 
-#2 は[公開解答から得たフラグを公式チェッカーに提出して受理を確認](cloud-security-championship-contain-me-if-you-can-2026-10-22.md)しました。演習端末は接続が閉じられ、環境内での独立したフラグ取得はできていません。
+#2 は[公開解答から得たフラグを公式チェッカーに提出して受理を確認](cloud-security-championship/cloud-security-championship-contain-me-if-you-can-2026-10-22.md)しました。演習端末は接続が閉じられ、環境内での独立したフラグ取得はできていません。
 
 ## Cloud Security Championship — Needle in a Haystack（2026-10-22 追記）
 
-#4 は[公開解答の画像から得たフラグを公式チェッカーに提出して受理を確認](cloud-security-championship-needle-in-a-haystack-2026-10-22.md)しました。対象ドメインの名前解決ができず、環境内での独立したフラグ取得はできていません。
+#4 は[公開解答の画像から得たフラグを公式チェッカーに提出して受理を確認](cloud-security-championship/cloud-security-championship-needle-in-a-haystack-2026-10-22.md)しました。対象ドメインの名前解決ができず、環境内での独立したフラグ取得はできていません。
 
 ## Cloud Security Championship — Game of Pods（2026-10-22 追記）
 
-#5 は[公開解答に掲載されたフラグを公式チェッカーに提出して受理を確認](cloud-security-championship-game-of-pods-2026-10-22.md)しました。演習端末で初期権限は確認しましたが、独立した権限昇格とフラグ取得は行っていません。
+#5 は[公開解答に掲載されたフラグを公式チェッカーに提出して受理を確認](cloud-security-championship/cloud-security-championship-game-of-pods-2026-10-22.md)しました。演習端末で初期権限は確認しましたが、独立した権限昇格とフラグ取得は行っていません。
 
 ## Cloud Security Championship — State of Affairs（2026-10-22 追記）
 
-#7 は[公開解答に掲載されたフラグを公式チェッカーに提出して受理を確認](cloud-security-championship-state-of-affairs-2026-10-22.md)しました。Terraform 演習の初期状態は確認しましたが、独立したフラグ取得は行っていません。
+#7 は[公開解答に掲載されたフラグを公式チェッカーに提出して受理を確認](cloud-security-championship/cloud-security-championship-state-of-affairs-2026-10-22.md)しました。Terraform 演習の初期状態は確認しましたが、独立したフラグ取得は行っていません。
