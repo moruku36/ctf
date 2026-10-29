@@ -25,3 +25,9 @@ CTF results, notes, and evidence.
 - [Pwned Labs — 無料ラボ進行記録 (2026-10-23)](pwned-labs-partial-progress-2026-10-23.md)
 - [Earlier results and methods](RESULTS.md)
 - [K8s LAN Party certificate](k8s-lan-party-certificate.png)
+
+## 参考文献
+
+- [HackerOne on X](https://x.com/Hacker0x01) — HackerOne の X アカウント。
+- [HackerOne](https://www.hackerone.com/) — 脆弱性の発見・検証などを支援するプラットフォームの紹介。
+- [HackerOne Documentation](https://docs.hackerone.com/en/) — プラットフォームの利用、脆弱性の発見・報告、レポート管理などに関する公式ドキュメント。
