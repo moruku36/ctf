@@ -7,7 +7,7 @@
 | 1 | A little something to get you started | 開始時点で 1/1。今回の解法は未再現 | 記録待ち |
 | 2 | Micro-CMS v1 | **4/4 提出済み** | [解法](micro-cms-v1.md) |
 | 3 | Micro-CMS v2 | **3/3 提出済み** | [解法と調査記録](micro-cms-v2.md) |
-| 4 | Encrypted Pastebin | **3/4 提出済み、継続中** | [調査記録](encrypted-pastebin.md) |
+| 4 | Encrypted Pastebin | **4/4 提出済み** | [解法](encrypted-pastebin.md) |
 | 5 | Photo Gallery | **3/3 提出済み** | [解法](photo-gallery.md) |
 | 6 | Cody's First Blog | **3/3 提出済み** | [解法](codys-first-blog.md) |
 | 7 | Postbook | **7/7 提出済み** | [解法](postbook.md) |
@@ -29,4 +29,4 @@
 
 2026-10-30: Cody's First Blog のコメント投稿、管理ページへの直接アクセス、承認済みコメントを使ったローカルページの再読み込みで3つのフラグを提出した。CTF 一覧で 3/3、全体 79 点を確認した。解法は [Cody's First Blog](codys-first-blog.md) に記録した。
 
-2026-10-30: Encrypted Pastebin の3つのフラグを提出し、CTF 一覧で 3/4、全体 106 点を確認した。残る1つは暗号文の生成を検証中。途中経過は [Encrypted Pastebin](encrypted-pastebin.md) に保存した。
+2026-10-30: Encrypted Pastebin の4つのフラグを提出し、CTF 一覧で 4/4、全体 115 点を確認した。暗号化リンクのブロック操作、パディングオラクル、追跡ログの参照を [Encrypted Pastebin](encrypted-pastebin.md) に記録した。
