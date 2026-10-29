@@ -3,6 +3,7 @@
 CTF results, notes, and evidence.
 
 - [HackerOne 学習・実践ロードマップ](hackerone-learning-roadmap.md)
+- [Hacker101 CTF 解法記録](hacker101/README.md)
 
 - [PumpkinShell — Dependency Issues (2026-10-27)](pumpkinshell-dependency-issues-2026-10-27.md)
 - [PumpkinShell — Gist of the Problem (2026-10-27)](pumpkinshell-gist-of-the-problem-2026-10-27.md)
