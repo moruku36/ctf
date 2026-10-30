@@ -11,6 +11,8 @@
 | 5 | Photo Gallery | **3/3 提出済み** | [解法](photo-gallery.md) |
 | 6 | Cody's First Blog | **3/3 提出済み** | [解法](codys-first-blog.md) |
 | 7 | Postbook | **7/7 提出済み** | [解法](postbook.md) |
+| 8 | Ticketastic: Demo Instance | 補助課題（0/0） | [Live の解法内で説明](ticketastic-live-instance.md) |
+| 9 | Ticketastic: Live Instance | **2/2 提出済み** | [解法](ticketastic-live-instance.md) |
 
 2026-10-29: Micro-CMS v1 の残る Flag2 と Flag1 を提出し、CTF 一覧で 4/4、合計 9/26 点を確認した。Micro-CMS v2 は起動済み。Changelog とログイン画面を確認した。本人の明示的な承認後、ログインフォームで UNION を使った認証回避に成功した。Private Page のフラグと、未認証 POST で返ったフラグを提出した。Flag2 はログイン応答の真偽差を使ってインスタンス固有の資格情報を特定し、通常ログイン後に提出した。今回の Chrome 操作でタイムアウトは再発せず、CTF 一覧で 3/3、全体 18/26 点を確認した。
 
@@ -30,3 +32,5 @@
 2026-10-30: Cody's First Blog のコメント投稿、管理ページへの直接アクセス、承認済みコメントを使ったローカルページの再読み込みで3つのフラグを提出した。CTF 一覧で 3/3、全体 79 点を確認した。解法は [Cody's First Blog](codys-first-blog.md) に記録した。
 
 2026-10-30: Encrypted Pastebin の4つのフラグを提出し、CTF 一覧で 4/4、全体 115 点を確認した。暗号化リンクのブロック操作、パディングオラクル、追跡ログの参照を [Encrypted Pastebin](encrypted-pastebin.md) に記録した。
+
+2026-10-31: Ticketastic: Live Instance でチケット内リンクを使った演習用ユーザーの作成と、チケット番号への SQL 注入を検証した。2つのフラグを提出し、CTF 一覧で Live 2/2、全体125点を確認した。解法は [Ticketastic: Live Instance](ticketastic-live-instance.md) に記録した。
