@@ -18,6 +18,7 @@
 | 12 | TempImage | **2/2 提出済み** | [解法](tempimage.md) |
 | 13 | H1 Thermostat | **2/2 提出済み** | [解法](h1-thermostat.md) |
 | 14 | Model E1337 v2 - Hardened Rolling Code Lock | **1/1 提出済み** | [解法](model-e1337-v2-hardened-rolling-code-lock.md) |
+| 15 | Intentional Exercise | **1/1 提出済み** | [解法](intentional-exercise.md) |
 
 2026-10-29: Micro-CMS v1 の残る Flag2 と Flag1 を提出し、CTF 一覧で 4/4、合計 9/26 点を確認した。Micro-CMS v2 は起動済み。Changelog とログイン画面を確認した。本人の明示的な承認後、ログインフォームで UNION を使った認証回避に成功した。Private Page のフラグと、未認証 POST で返ったフラグを提出した。Flag2 はログイン応答の真偽差を使ってインスタンス固有の資格情報を特定し、通常ログイン後に提出した。今回の Chrome 操作でタイムアウトは再発せず、CTF 一覧で 3/3、全体 18/26 点を確認した。
 
@@ -55,3 +56,5 @@
 2026-11-01: H1 Thermostat のビルド済みAPKを取得し、`classes.dex` 内の平文フラグ形式の文字列を2件抽出した。両方提出し、CTF 一覧で2/2、全体159点を確認した。[解法](h1-thermostat.md)と[抽出スクリプト](h1-thermostat-extract.py)を記録した。
 
 2026-11-01: Model E1337 v2 の `GET /rng` で生成器を確認し、誤入力時に表示される連続コードから内部状態を復元した。次のコードで解除し、フラグを提出した。CTF 一覧で1/1、全体172点を確認した。[解法](model-e1337-v2-hardened-rolling-code-lock.md)と[計算スクリプト](model-e1337-v2-solver.py)を記録した。
+
+2026-11-01: Intentional Exercise の APK に含まれる `appRoot` のURLと固定鍵を確認し、Intent の追加パス `/flagBearer` に対応する SHA-256 ハッシュを計算した。署名付きURLでフラグを確認して提出し、CTF 一覧で1/1、全体175点を確認した。[解法](intentional-exercise.md)と[計算スクリプト](intentional-exercise-solver.py)を記録した。
