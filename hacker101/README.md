@@ -64,3 +64,5 @@
 2026-11-01: Y2FuIHlvdSByZWNvbj8/ の File Dropper で `filename` に `../` を指定し、一回限りの `.phtml` ファイルをアップロードした。`../flags.txt` から3つのフラグを確認後、検証用ファイルが404になったことを確認した。3つとも提出し、CTF 一覧で3/3、全体190点を確認した。[解法](y2fu-ihlvdsbyzwnvbj8.md)と[検証用ファイル](file-dropper-once.phtml)を記録した。
 
 2026-11-01: Hackyholidays CTF で robots.txt、移動通知の HTML 属性、People Rater の一覧外 ID、My Diary のテンプレート読み込みから4フラグを提出した。CTF 一覧で4/12、全体194点を確認した。Swag Shop と Evil Quiz の2フラグは取得済みだが未提出。Signup Manager の README を開く操作が Brave の `net::ERR_BLOCKED_BY_CLIENT` で拒否されたため、別経路への切替をせず停止した。[調査記録](hackyholidays-ctf.md)に状況を保存した。
+
+2026-11-01: 本人の許可を受け、Hackyholidays CTF の Signup Manager README を Brave で1回再読み込みしたが、引き続き `ERR_BLOCKED_BY_CLIENT`。Brave の保護設定を確認する画面操作も、現在の URL を安全に特定できず停止した。提出状況は4/12、全体194点のまま。[調査記録](hackyholidays-ctf.md)を更新した。
