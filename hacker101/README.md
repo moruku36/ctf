@@ -14,6 +14,7 @@
 | 8 | Ticketastic: Demo Instance | 補助課題（0/0） | [Live の解法内で説明](ticketastic-live-instance.md) |
 | 9 | Ticketastic: Live Instance | **2/2 提出済み** | [解法](ticketastic-live-instance.md) |
 | 10 | Petshop Pro | **2/3 提出済み、継続中** | [調査記録](petshop-pro.md) |
+| 11 | Model E1337 - Rolling Code Lock | **2/2 提出済み** | [解法](model-e1337-rolling-code-lock.md) |
 
 2026-10-29: Micro-CMS v1 の残る Flag2 と Flag1 を提出し、CTF 一覧で 4/4、合計 9/26 点を確認した。Micro-CMS v2 は起動済み。Changelog とログイン画面を確認した。本人の明示的な承認後、ログインフォームで UNION を使った認証回避に成功した。Private Page のフラグと、未認証 POST で返ったフラグを提出した。Flag2 はログイン応答の真偽差を使ってインスタンス固有の資格情報を特定し、通常ログイン後に提出した。今回の Chrome 操作でタイムアウトは再発せず、CTF 一覧で 3/3、全体 18/26 点を確認した。
 
@@ -41,3 +42,5 @@
 2026-11-01: Petshop Pro の商品編集ページに未ログインで入り、商品名を一時変更した後、カートで別のフラグを確認した。ブラウザ操作のタイムアウトで提出前に停止したため、提出済みは引き続き1/3。商品名の復元操作は送信したが成否は未確認。詳細は[調査記録](petshop-pro.md)。
 
 2026-11-01: Petshop Pro の2件目のフラグを提出し、CTF 一覧で2/3、全体131点を確認した。商品名が元の `Kitten` に戻っていることを確認し、提出用のローカルファイルは削除した。残る管理ログインは名前候補6500件まで一致せず、再度503が返ったため照合を停止した。
+
+2026-11-01: Model E1337 - Rolling Code Lock のXML外部エンティティによるソース参照と、連続する2つの表示コードから次のコードを計算する方法で2フラグを提出した。CTF 一覧で2/2、全体145点を確認した。変更した設定値は元に戻した。解法と計算スクリプトは[Model E1337](model-e1337-rolling-code-lock.md)に記録した。
