@@ -27,6 +27,7 @@
 | 21 | XSS Playground by zseano | **1/1 提出済み** | [解法](xss-playground-zseano.md) |
 | 22 | Mobile Webdev | **2/2 提出済み** | [解法](mobile-webdev.md) |
 | 23 | Oauthbreaker | **2/2 提出済み** | [解法](oauthbreaker.md) |
+| 24 | BugDB v2 | **1/1 提出済み** | [解法](bugdb-v2.md) |
 
 2026-10-29: Micro-CMS v1 の残る Flag2 と Flag1 を提出し、CTF 一覧で 4/4、合計 9/26 点を確認した。Micro-CMS v2 は起動済み。Changelog とログイン画面を確認した。本人の明示的な承認後、ログインフォームで UNION を使った認証回避に成功した。Private Page のフラグと、未認証 POST で返ったフラグを提出した。Flag2 はログイン応答の真偽差を使ってインスタンス固有の資格情報を特定し、通常ログイン後に提出した。今回の Chrome 操作でタイムアウトは再発せず、CTF 一覧で 3/3、全体 18/26 点を確認した。
 
@@ -92,3 +93,5 @@
 2026-11-02: Mobile Webdev のAPKからWebViewの参照先とHMAC鍵を調べ、編集画面のHTMLコメントからアップロード機能を発見した。正しいHMAC-MD5を付けたZIPと、相対パスを含むZIPで2フラグを取得・提出。CTF一覧で2/2、全体260点を確認した。[解法](mobile-webdev.md)に記録した。
 
 2026-11-02: Oauthbreaker のAPKからOAuthの経路とWebViewインターフェース名を確認した。空の `redirect_url` に現れた認可リンクのトークンと、公開解説にある隠しHTMLパスを今回のインスタンスで検証し、2フラグを提出。CTF一覧で2/2、全体268点を確認した。[解法](oauthbreaker.md)に記録した。
+
+2026-11-02: BugDB v2 のGraphiQLでスキーマと公開BugのID形式を確認した。非公開の `Bugs:2` を `node(id: …)` で直接参照してフラグを取得・提出。mutationでデータを変更せず、CTF一覧で1/1、全体272点を確認した。[解法](bugdb-v2.md)に記録した。
