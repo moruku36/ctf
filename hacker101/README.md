@@ -77,3 +77,5 @@
 2026-11-02: Grayhatcon CTF で管理ページのIP判定、登録時の追加項目、サブユーザー有効化の権限不備、質問APIのSQL注入を検証した。演習用の対象出品を管理画面で削除し、4フラグを提出。CTF一覧で4/4、全体244点を確認した。[解法](grayhatcon-ctf.md)に記録した。
 
 2026-11-02: OSU CTF のログインフォームでSQL注入を検証し、職員の学生一覧まで確認した。学生詳細に使われるJavaScriptファイルがBraveの `ERR_BLOCKED_BY_CLIENT` で遮断されたため停止。フラグは未取得・未提出。[調査記録](osu-ctf.md)に手順と停止箇所を記載した。
+
+2026-11-02: 本人の提案でOSU CTFのJavaScriptファイルをChromeでも開いたが、Braveと同じ `ERR_BLOCKED_BY_CLIENT` で遮断された。提出状況は0/1のまま。[調査記録](osu-ctf.md)を更新した。
