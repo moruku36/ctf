@@ -24,6 +24,7 @@
 | 18 | RTFM | **8/8 提出済み** | [解法](rtfm.md) |
 | 19 | Grayhatcon CTF | **4/4 提出済み** | [解法](grayhatcon-ctf.md) |
 | 20 | OSU CTF | **1/1 提出済み** | [解法](osu-ctf.md) |
+| 21 | XSS Playground by zseano | **0/1、継続中** | [調査記録](xss-playground-zseano.md) |
 
 2026-10-29: Micro-CMS v1 の残る Flag2 と Flag1 を提出し、CTF 一覧で 4/4、合計 9/26 点を確認した。Micro-CMS v2 は起動済み。Changelog とログイン画面を確認した。本人の明示的な承認後、ログインフォームで UNION を使った認証回避に成功した。Private Page のフラグと、未認証 POST で返ったフラグを提出した。Flag2 はログイン応答の真偽差を使ってインスタンス固有の資格情報を特定し、通常ログイン後に提出した。今回の Chrome 操作でタイムアウトは再発せず、CTF 一覧で 3/3、全体 18/26 点を確認した。
 
@@ -81,3 +82,5 @@
 2026-11-02: 本人の提案でOSU CTFのJavaScriptファイルをChromeでも開いたが、Braveと同じ `ERR_BLOCKED_BY_CLIENT` で遮断された。提出状況は0/1のまま。[調査記録](osu-ctf.md)を更新した。
 
 2026-11-02: 本人がChromeでJavaScriptファイルを手動で開いた後、OSU CTF の学生更新URLを確認した。Natasha Drew の英語・理科・数学をすべてAに変更し、フラグを提出。CTF一覧で1/1、全体248点を確認した。[解法](osu-ctf.md)を更新した。
+
+2026-11-02: XSS Playground by zseano の初期画面と読み込みスクリプトを確認した。`/custom.js` がBraveの `ERR_BLOCKED_BY_CLIENT` で遮断されたため停止。フラグは未取得・未提出。[調査記録](xss-playground-zseano.md)に保存した。
