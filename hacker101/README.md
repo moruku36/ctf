@@ -22,6 +22,7 @@
 | 16 | Y2FuIHlvdSByZWNvbj8/（File Dropper） | **3/3 提出済み** | [解法](y2fu-ihlvdsbyzwnvbj8.md) |
 | 17 | Hackyholidays CTF | **6/12 提出済み、継続中** | [調査記録](hackyholidays-ctf.md) |
 | 18 | RTFM | **8/8 提出済み** | [解法](rtfm.md) |
+| 19 | Grayhatcon CTF | **4/4 提出済み** | [解法](grayhatcon-ctf.md) |
 
 2026-10-29: Micro-CMS v1 の残る Flag2 と Flag1 を提出し、CTF 一覧で 4/4、合計 9/26 点を確認した。Micro-CMS v2 は起動済み。Changelog とログイン画面を確認した。本人の明示的な承認後、ログインフォームで UNION を使った認証回避に成功した。Private Page のフラグと、未認証 POST で返ったフラグを提出した。Flag2 はログイン応答の真偽差を使ってインスタンス固有の資格情報を特定し、通常ログイン後に提出した。今回の Chrome 操作でタイムアウトは再発せず、CTF 一覧で 3/3、全体 18/26 点を確認した。
 
@@ -71,3 +72,5 @@
 2026-11-02: Hackyholidays CTF の保存済み2フラグ（Swag Shop と Evil Quiz）を提出し、一覧で6/12、全体196点を確認した。新しいインスタンスでも Signup Manager の `README.md` が Brave に遮断されたため、残り6件の調査を停止した。[調査記録](hackyholidays-ctf.md)を更新した。
 
 2026-11-02: RTFM で公開Swagger仕様、設定情報、ユーザー登録、v1投稿、アバターURLを使うサーバー側取得、詳細ステータス、v1/v2の認証値の混同、分析APIの経路解釈から8フラグを提出した。CTF一覧で8/8、全体228点を確認し、[解法](rtfm.md)を記録した。
+
+2026-11-02: Grayhatcon CTF で管理ページのIP判定、登録時の追加項目、サブユーザー有効化の権限不備、質問APIのSQL注入を検証した。演習用の対象出品を管理画面で削除し、4フラグを提出。CTF一覧で4/4、全体244点を確認した。[解法](grayhatcon-ctf.md)に記録した。
