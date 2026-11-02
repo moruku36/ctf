@@ -25,6 +25,7 @@
 | 19 | Grayhatcon CTF | **4/4 提出済み** | [解法](grayhatcon-ctf.md) |
 | 20 | OSU CTF | **1/1 提出済み** | [解法](osu-ctf.md) |
 | 21 | XSS Playground by zseano | **1/1 提出済み** | [解法](xss-playground-zseano.md) |
+| 22 | Mobile Webdev | **2/2 提出済み** | [解法](mobile-webdev.md) |
 
 2026-10-29: Micro-CMS v1 の残る Flag2 と Flag1 を提出し、CTF 一覧で 4/4、合計 9/26 点を確認した。Micro-CMS v2 は起動済み。Changelog とログイン画面を確認した。本人の明示的な承認後、ログインフォームで UNION を使った認証回避に成功した。Private Page のフラグと、未認証 POST で返ったフラグを提出した。Flag2 はログイン応答の真偽差を使ってインスタンス固有の資格情報を特定し、通常ログイン後に提出した。今回の Chrome 操作でタイムアウトは再発せず、CTF 一覧で 3/3、全体 18/26 点を確認した。
 
@@ -86,3 +87,5 @@
 2026-11-02: XSS Playground by zseano の初期画面と読み込みスクリプトを確認した。`/custom.js` がBraveの `ERR_BLOCKED_BY_CLIENT` で遮断されたため停止。フラグは未取得・未提出。[調査記録](xss-playground-zseano.md)に保存した。
 
 2026-11-02: 本人がChromeで開いた `/custom.js` からメール取得APIと固定ヘッダーを確認し、同じリクエストでフラグを取得・提出した。CTF一覧で XSS Playground by zseano 1/1、全体252点を確認した。[解法](xss-playground-zseano.md)に記録した。案内にある個々のXSS練習項目は未検証。
+
+2026-11-02: Mobile Webdev のAPKからWebViewの参照先とHMAC鍵を調べ、編集画面のHTMLコメントからアップロード機能を発見した。正しいHMAC-MD5を付けたZIPと、相対パスを含むZIPで2フラグを取得・提出。CTF一覧で2/2、全体260点を確認した。[解法](mobile-webdev.md)に記録した。
