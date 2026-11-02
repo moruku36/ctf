@@ -29,6 +29,7 @@
 | 23 | Oauthbreaker | **2/2 提出済み** | [解法](oauthbreaker.md) |
 | 24 | BugDB v2 | **1/1 提出済み** | [解法](bugdb-v2.md) |
 | 25 | BugDB v1 | **1/1 提出済み** | [解法](bugdb-v1.md) |
+| 26 | Rend Asunder | **0/3、継続中** | [調査記録](rend-asunder.md) |
 
 2026-10-29: Micro-CMS v1 の残る Flag2 と Flag1 を提出し、CTF 一覧で 4/4、合計 9/26 点を確認した。Micro-CMS v2 は起動済み。Changelog とログイン画面を確認した。本人の明示的な承認後、ログインフォームで UNION を使った認証回避に成功した。Private Page のフラグと、未認証 POST で返ったフラグを提出した。Flag2 はログイン応答の真偽差を使ってインスタンス固有の資格情報を特定し、通常ログイン後に提出した。今回の Chrome 操作でタイムアウトは再発せず、CTF 一覧で 3/3、全体 18/26 点を確認した。
 
@@ -98,3 +99,5 @@
 2026-11-02: BugDB v2 のGraphiQLでスキーマと公開BugのID形式を確認した。非公開の `Bugs:2` を `node(id: …)` で直接参照してフラグを取得・提出。mutationでデータを変更せず、CTF一覧で1/1、全体272点を確認した。[解法](bugdb-v2.md)に記録した。
 
 2026-11-02: BugDB v1 のGraphiQLで、ルートのBug一覧とは異なり、ユーザーの `bugs` 関連に本文 `text` があることを確認した。`allUsers → bugs → text` で非公開Bugのフラグを取得・提出。CTF一覧で1/1、全体274点を確認した。[解法](bugdb-v1.md)に記録した。
+
+2026-11-02: Rend Asunder のヒントと公開解説を参考に、JavaScript実行先DOMの `noscript` をRendered画像へ出力してFlag0形式の文字列を確認した。画像保存がタイムアウトしたためGUI操作を停止。フラグは未提出で0/3、残る2件は未取得。[調査記録](rend-asunder.md)に再開手順を保存した。
