@@ -1,20 +1,23 @@
 # Rend Asunder — 調査記録（継続中）
 
-2026-11-02 にHacker101 CTFのRend Asunderを開始した。3つのフラグはまだ提出していない。インスタンス固有のホスト名とフラグは公開しない。
+2026-11-02 にHacker101 CTFのRend Asunderを検証した。CTF一覧で **1/3 提出済み**。インスタンス固有のホスト名とフラグは公開しない。
 
-## 確認したこと
+## Flag0 — DOM内のnoscript
 
-- 画面にはJavaScriptを保存する `Script` 欄と、結果を画像で表示する `Rendered` 欄がある。フォームは `POST /saveScript`、画像は `GET /image`。
-- Hacker101の最初のヒントは `What do you have access to?`。次のヒントは時間制限中だった。
-- [公開writeupのFlag0解説](https://github.com/l0lsec/hacker101-ctf-writeups/blob/main/rend_asunder/flag0/README.md)を手掛かりに、実行先DOMの `noscript` を調べた。
-- 次のスクリプトを保存すると、Rendered画像にFlag0形式の文字列が表示された。
+画面の `Script` 欄は `POST /saveScript` で保存され、実行結果が `GET /image` のPNG画像として表示される。最初のヒントは `What do you have access to?`。
+
+[公開writeupのFlag0解説](https://github.com/l0lsec/hacker101-ctf-writeups/blob/main/rend_asunder/flag0/README.md)を参考に、次のJavaScriptを保存した。
 
 ```js
 document.write(document.getElementsByTagName('noscript')[0].innerHTML);
 ```
 
-## 停止理由と再開手順
+Rendered画像にフラグが現れた。画像を取得して文字列を正確に読み、Hacker101へ提出したところ `Congratulations, you found a flag!` が表示され、CTF一覧でもRend Asunder **1/3**を確認した。
 
-画像中の文字を正確に確認するため `/image` の保存を試みたが、30秒のタイムアウトになった。直後の一度の画面確認では、保存したスクリプトとRendered画像が残っていた。GUI操作はここで停止した。Flag0は画面に表示されたが、**未提出**。Flag1・Flag2は未取得。
+## 残る2件の調査
 
-再開時はRendered画像のFlag0文字列を正確に読み取ってHacker101へ提出し、一覧で提出状況を確認する。続いて、レンダラーの挙動と後続ヒントを調べる。参考writeupはFlag0のみを記録しており、残る2件の解法は未検証。
+実行先の `document.documentElement.outerHTML` では、`head` 内に `noscript` と自分の `script` があることを確認した。実行環境のUser-AgentはHeadlessChrome 67.0.3396.79。Cookieは空で、表示された文書URLはレンダラー内部のローカルURLだった。
+
+[公開された詳しい解析](https://www.3lyly0.dev/research/rend-asunder-explained/)は、親iframeにあるFlag1をブラウザー内部のメモリから読み、Flag2を実行環境のファイルから得る方法を述べている。ただし、記事には今回の環境で実行できる完全なコードや必要な内部オフセットがない。この記事のFlag1・Flag2の手順は、こちらでは**未検証**である。
+
+次は時間制限後のHacker101ヒントを確認し、実際の描画環境と照合する。Flag1・Flag2は未取得・未提出。
