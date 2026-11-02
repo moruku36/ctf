@@ -20,7 +20,7 @@
 | 14 | Model E1337 v2 - Hardened Rolling Code Lock | **1/1 提出済み** | [解法](model-e1337-v2-hardened-rolling-code-lock.md) |
 | 15 | Intentional Exercise | **1/1 提出済み** | [解法](intentional-exercise.md) |
 | 16 | Y2FuIHlvdSByZWNvbj8/（File Dropper） | **3/3 提出済み** | [解法](y2fu-ihlvdsbyzwnvbj8.md) |
-| 17 | Hackyholidays CTF | **4/12 提出済み、継続中** | [調査記録](hackyholidays-ctf.md) |
+| 17 | Hackyholidays CTF | **6/12 提出済み、継続中** | [調査記録](hackyholidays-ctf.md) |
 
 2026-10-29: Micro-CMS v1 の残る Flag2 と Flag1 を提出し、CTF 一覧で 4/4、合計 9/26 点を確認した。Micro-CMS v2 は起動済み。Changelog とログイン画面を確認した。本人の明示的な承認後、ログインフォームで UNION を使った認証回避に成功した。Private Page のフラグと、未認証 POST で返ったフラグを提出した。Flag2 はログイン応答の真偽差を使ってインスタンス固有の資格情報を特定し、通常ログイン後に提出した。今回の Chrome 操作でタイムアウトは再発せず、CTF 一覧で 3/3、全体 18/26 点を確認した。
 
@@ -66,3 +66,5 @@
 2026-11-01: Hackyholidays CTF で robots.txt、移動通知の HTML 属性、People Rater の一覧外 ID、My Diary のテンプレート読み込みから4フラグを提出した。CTF 一覧で4/12、全体194点を確認した。Swag Shop と Evil Quiz の2フラグは取得済みだが未提出。Signup Manager の README を開く操作が Brave の `net::ERR_BLOCKED_BY_CLIENT` で拒否されたため、別経路への切替をせず停止した。[調査記録](hackyholidays-ctf.md)に状況を保存した。
 
 2026-11-01: 本人の許可を受け、Hackyholidays CTF の Signup Manager README を Brave で1回再読み込みしたが、引き続き `ERR_BLOCKED_BY_CLIENT`。Brave の保護設定を確認する画面操作も、現在の URL を安全に特定できず停止した。提出状況は4/12、全体194点のまま。[調査記録](hackyholidays-ctf.md)を更新した。
+
+2026-11-02: Hackyholidays CTF の保存済み2フラグ（Swag Shop と Evil Quiz）を提出し、一覧で6/12、全体196点を確認した。新しいインスタンスでも Signup Manager の `README.md` が Brave に遮断されたため、残り6件の調査を停止した。[調査記録](hackyholidays-ctf.md)を更新した。
