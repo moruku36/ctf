@@ -8,7 +8,7 @@
 2. 演習用のSQL注入入力 `admin' OR 1=1-- ` を `username` に入れ、任意のパスワードを指定すると、`rhonda.daniels` としてダッシュボードへ進んだ。
 3. ダッシュボードにはこの職員の学生一覧が表示された。Natasha Drew は一覧にいなかった。
 4. 学生名のセルには `data-id` 属性があり、例として Nancie Brett の値は `TmFuY2llX0JyZXR0` だった。これは `Nancie_Brett` のBase64表現に対応する。学生名セルをクリックしたが、画面は変化しなかった。
-5. ページが読み込む `/assets/js/app.min.js` を開こうとしたところ、Brave が `net::ERR_BLOCKED_BY_CLIENT` で遮断した。そのファイルを別経路から取得する操作はしていない。
+5. ページが読み込む `/assets/js/app.min.js` を開こうとしたところ、Brave が `net::ERR_BLOCKED_BY_CLIENT` で遮断した。2026-11-02 に本人の提案でChromeから同じファイルを開くことも試したが、Chromeでも同じエラーになった。別経路での取得はしていない。
 
 ## 次の手順
 
