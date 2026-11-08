@@ -4,7 +4,7 @@
 
 This repository collects my CTF and security-challenge results, writeups, and evidence, organized by platform and event.
 
-VDP pilot (Nov 9–21, 2026; Monday–Saturday, one hour daily): [Daily progress and outcomes](hackerone/vdp-pilot-public-progress-2026-11.md) · [Pilot design, in Japanese](hackerone/hackerone-vdp-pilot-design-2026-11-08.md).
+VDP pilot (Nov 9–21, 2026; Monday–Saturday, 8:00–9:00 JST): [Daily progress and outcomes](hackerone/vdp-pilot-public-progress-2026-11.md) · [Pilot design, in Japanese](hackerone/hackerone-vdp-pilot-design-2026-11-08.md).
 
 ## Results summary
 
