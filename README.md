@@ -70,6 +70,7 @@ Pwned Labs. Free-lab writeups.
 ### HackerOne
 
 - [Learning and practice roadmap, in Japanese](hackerone/hackerone-learning-roadmap.md)
+- [Time-boxed VDP pilot design and AI-assisted workflow, in Japanese](hackerone/hackerone-vdp-pilot-design-2026-11-08.md)
 
 ## Conventions
 

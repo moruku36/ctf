@@ -70,6 +70,7 @@ Pwned Labs。無料ラボのwriteup。
 ### HackerOne
 
 - [日本語の学習・練習ロードマップ](hackerone/hackerone-learning-roadmap.md)
+- [VDPの時間配分・AI活用・停止条件を含む実践設計](hackerone/hackerone-vdp-pilot-design-2026-11-08.md)
 
 ## 規約
 

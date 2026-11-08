@@ -2,6 +2,8 @@
 
 作成日: 2026-10-29
 
+2026-11-08追記: 以下の進捗欄は作成当時の記録です。最新の学習記録は [Hacker101一覧](../hacker101/README.md)、次の実践方針は [VDP試行設計](hackerone-vdp-pilot-design-2026-11-08.md) を参照してください。
+
 ## 1. Hacker101で練習
 
 - [ ] [Hacker101](https://www.hacker101.com/) の入門教材を確認する。
