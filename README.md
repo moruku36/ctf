@@ -4,6 +4,8 @@
 
 This repository collects my CTF and security-challenge results, writeups, and evidence, organized by platform and event.
 
+Next steps: [2-week / 12-hour VDP pilot plan, in Japanese](hackerone/hackerone-vdp-pilot-design-2026-11-08.md) (three 2-hour sessions per week).
+
 ## Results summary
 
 See [RESULTS.md](RESULTS.md) for the earliest recorded results (2026-10-16) and methods.
@@ -70,7 +72,7 @@ Pwned Labs. Free-lab writeups.
 ### HackerOne
 
 - [Learning and practice roadmap, in Japanese](hackerone/hackerone-learning-roadmap.md)
-- [Time-boxed VDP pilot design and AI-assisted workflow, in Japanese](hackerone/hackerone-vdp-pilot-design-2026-11-08.md)
+- [2-week / 12-hour VDP pilot design and AI-assisted workflow, in Japanese](hackerone/hackerone-vdp-pilot-design-2026-11-08.md)
 
 ## Conventions
 

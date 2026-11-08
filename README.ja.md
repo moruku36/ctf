@@ -4,6 +4,8 @@
 
 このリポジトリは、私のCTFおよびセキュリティチャレンジの結果、writeup、証跡を、プラットフォーム・イベント別に整理して収録しています。
 
+次に取り組む計画: [2週間・計12時間のVDP試行案](hackerone/hackerone-vdp-pilot-design-2026-11-08.md)（週3回・各2時間）。
+
 ## 結果サマリー
 
 最も古い記録結果（2026-10-16）と手法については、[RESULTS.md](RESULTS.md)を参照してください。
@@ -70,7 +72,7 @@ Pwned Labs。無料ラボのwriteup。
 ### HackerOne
 
 - [日本語の学習・練習ロードマップ](hackerone/hackerone-learning-roadmap.md)
-- [VDPの時間配分・AI活用・停止条件を含む実践設計](hackerone/hackerone-vdp-pilot-design-2026-11-08.md)
+- [2週間・計12時間のVDP実践設計（AI活用・停止条件を含む）](hackerone/hackerone-vdp-pilot-design-2026-11-08.md)
 
 ## 規約
 
