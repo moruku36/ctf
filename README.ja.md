@@ -4,7 +4,7 @@
 
 このリポジトリは、私のCTFおよびセキュリティチャレンジの結果、writeup、証跡を、プラットフォーム・イベント別に整理して収録しています。
 
-VDP実践（2026-11-09〜21、月〜土・各1時間）：[日別の進捗と成功・失敗](hackerone/vdp-pilot-public-progress-2026-11.md) · [実践設計](hackerone/hackerone-vdp-pilot-design-2026-11-08.md)。
+VDP実践（2026-11-09〜21、月〜土・8:00〜9:00 JST）：[日別の進捗と成功・失敗](hackerone/vdp-pilot-public-progress-2026-11.md) · [実践設計](hackerone/hackerone-vdp-pilot-design-2026-11-08.md)。
 
 ## 結果サマリー
 
